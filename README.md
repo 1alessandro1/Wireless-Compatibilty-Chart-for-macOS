@@ -1,6 +1,12 @@
 # Wireless Compatibilty Chart for macOS
 This repository is an initial draft for an extensive collection of wireless devices compatible with macOS
 
+For usability, check this document for the latest support info
+
+https://docs.google.com/spreadsheets/d/1Rc66yvbW2-llykxt5AL03HSHZ9PDa4SQqJrglJ1bMKE/edit#gid=0
+
+since from that I will convert the data to markdown format (so that it can be copied inside guides or wikis which are currently using `.md` format)
+
 ## Note: 
 Many cards have incorrect information regarding macOS support, Device-ID fixes, and bluetooth support. Please report that with an issue and I'll fix that, the template with the necessary data required is this one:
 
