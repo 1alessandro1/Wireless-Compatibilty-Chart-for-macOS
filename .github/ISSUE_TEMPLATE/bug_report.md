@@ -10,7 +10,7 @@ assignees: ''
 Please fill the following table to add the correct information on your card.
 
 | Data Type  | Value  |
-|:----------------:|:----------:|
+|:----------------|:----------:|
 | **Commercial name** | `Fenvi T919`|
 | **Card model**| `BCM94360CD` |
 | **Card device-id**    | `14e4:43a0` |
