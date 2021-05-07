@@ -28,4 +28,4 @@ Please fill the following table to add the correct information on your card.
 
 
 - Additional kexts/injectors required from AirportBrcmFixup:
-- Additional notes: (Bluetooth usability, country code fix, etc):
+- Additional notes (Bluetooth usability, country code fix, etc):
