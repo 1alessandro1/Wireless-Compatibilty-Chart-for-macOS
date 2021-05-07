@@ -21,7 +21,7 @@ Sample Table
 | **Is BcrmPatchRAM required**| `No` |
 | **Is ExtendBTFeatureFlags required**| `No` |
 | **Antennas max count**| `4` |
-| **Minimum macOS support (no patches)**| `10.12?` |
+| **Minimum macOS support (no patches)**| `10.12` |
 | **Maximum macOS support (no patches)**| `Current` |
 | **Additional kexts/injectors required from AirportBrcmFixup**| `No` |
 
