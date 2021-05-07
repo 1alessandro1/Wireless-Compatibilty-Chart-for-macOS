@@ -8,7 +8,7 @@ Many cards have incorrect information regarding macOS support, Device-ID fixes, 
 Sample Table
 
 | Data Type  | Value  |
-|:----------------:|:----------:|
+|:----------------|:----------:|
 | **Commercial name** | `Fenvi T919`|
 | **Card model**| `BCM94360CD` |
 | **Card device-id**    | `14e4:43a0` |
