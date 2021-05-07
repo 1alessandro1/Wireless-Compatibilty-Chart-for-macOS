@@ -4,6 +4,9 @@ This repository is an initial draft for an extensive collection of wireless devi
 ## Note: 
 Many cards have incorrect information regarding macOS support, Device-ID fixes, and bluetooth support. Please report that with an issue and I'll fix that, the template with the necessary data required is this one:
 
+
+Sample Table
+
 | Data Type  | Value  |
 |:----------------:|:----------:|
 | **Commercial name** | `Fenvi T919`|
