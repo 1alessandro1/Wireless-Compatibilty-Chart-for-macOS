@@ -27,5 +27,9 @@ Please fill the following table to add the correct information on your card.
 | **Maximum macOS support (no patches)**| `Current` |
 
 
+| Data Type  | Value  |
+| **Bluetooth model**| `BRCM20702` |
+| **Bluetooth device-id**    | `05ac:828d` |
+
 - Additional kexts/injectors required from AirportBrcmFixup:
 - Additional notes (Bluetooth usability, country code fix, etc):
