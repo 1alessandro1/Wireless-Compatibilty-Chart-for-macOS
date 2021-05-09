@@ -1,0 +1,87 @@
+"Wi-Fi Compatibility Table - Pci-Express, Mini Pci-Express and M.2 (NGFF) for macOS",,,,,,,,,,,,,,,,,,
+Card model no. ,Vendor ID: Device ID,802.11+ Bluetooth,Bluetooth model,Bluetooth USB-ID and stability,MIMO,2.4GHz Speed ,5GHz Speed ,Mac OS X 10.6 Support,Mac OS X 10.7 Support,Mac OS X 10.8 Support,macOS 10.9 Support,macOS 10.10 Support,macOS 10.11 Support,macOS 10.12 Support,macOS 10.13 Support,macOS 10.14 Support,macOS 10.15 Support,macOS 11 Support
+"Original Model, Broadcom Apple (full-size):  installed via PCIE-X1 or mPCIE adapter and (NGFF, M.2) ",,,,,,,,,,,,,,,,,,
+BCM943224PCIEBT2BX,[14e4:4353],a/b/g/n+ bt 4.0,,,2x2,150 Mbit/s,300 Mbit/s,--,YES,YES,YES,YES,YES,YES,YES,YES,YES,DeviceID spoof to BCM94360
+BCM943224PCIEBT2,[14e4:4353],a/b/g/n+ bt 4.0,,,2x2,150 Mbit/s,300 Mbit/s,--,YES,YES,YES,YES,YES,YES,YES,YES,YES,DeviceID spoof to BCM94360
+BCM94331CSAX,[14e4:4331],a/b/g/n+ bt 4.0,,,3x3,150 Mbit/s,450 Mbit/s,--,--,10.8.5+YES,YES,YES,YES,YES,YES,YES,Force  IO80211Family,DeviceID spoof to BCM94360
+BCM94331CD,[14e4:4331],a/b/g/n+ bt 4.0,,,3x3,150 Mbit/s,450 Mbit/s,--,--,10.8.5+YES,YES,YES,YES,YES,YES,YES,Force  IO80211Family,DeviceID spoof to BCM94360
+BCM94360CS2,[14e4:43a0],a/g/n/ac+ bt 4.0,,,2x2,300 Mbit/s,867 Mbit/s,--,--,--,YES,YES,YES,YES,YES,YES,YES,YES
+BCM94360CS,[14e4:43a0],a/g/n/ac+ bt 4.0,BRCM20702,,3x3,300 Mbit/s,1300 Mbit/s,--,--,--,YES,YES,YES,YES,YES,YES,YES,YES
+BCM94360CD - Fenvi T919,[14e4:43a0],a/g/n/ac+ bt 4.0,BRCM20702,"[05ac:828d] Tested, stable",3x3,450 Mbit/s,1300 Mbit/s,--,--,--,YES,YES,YES,YES,YES,YES,YES,YES
+BCM943602CDP,[14e4:43ba],a/g/n/ac+ bt 4.1,BRCM20703,[05ac:8290],3x3,300 Mbit/s,1300 Mbit/s,--,--,--,YES,YES,YES,YES,YES,YES,YES,YES
+BCM943602CS,[14e4:43ba],a/g/n/ac+ bt 4.1,BRCM2045A0,[0a5c:f007] Unsupported,3x3,300 Mbit/s,1300 Mbit/s,--,--,--,YES,YES,YES,YES,YES,YES,YES,YES
+Broadcom: (full-size):,,,,,,,,,,,,,,,,,,
+BCM94312MCG,[14e4:4315],b/g,,,--,54 Mbit/s,--,DeviceID fix,NO,NO,NO,,,,,NO,,
+BCM94311MCG,[14e4:4311],b/g,,,--,54 Mbit/s,--,YES,NO,NO,NO,,,,,NO,,
+BCM94312MCAG,[14e4:4312],a/b/g,,,--,54 Mbit/s,--,YES,NO,NO,NO,,,,,NO,,
+BCM94321MC,[14e4:4328],a/b/g/n,,,2x2,150 Mbit/s,300 Mbit/s,YES,NO,NO,NO,,,,,NO,,
+BCM94322MC,[14e4:432b],a/b/g/n,,,2x2,150 Mbit/s,300 Mbit/s,YES,YES,YES,YES,,,,,YES,,
+BCM94360NG,[14e4:43a0],a/b/g/n/ac,BRCM20702,"[05ac:828d] Tested, stable",2x2,150 Mbit/s,300 Mbit/s,YES,YES,YES,YES,,,,,YES,,
+Broadcom: (half-size):,,,,,,,,,,,,,,,,,,
+BCM94312HMGB,[14e4:4315],b/g + bt,,,--,54 Mbit/s,--,NO,NO,NO,NO,,,,,NO,,
+BCM94313HMG2L,[14e4:4727],b/g/n,,,1x1,75 Mbit/s,--,NO,NO,NO,NO,,,,,NO,,
+BCM94313HMGB,[14e4:4727],b/g/n + bt,,,1x1,75 Mbit/s,--,NO,NO,NO,NO,,,,,NO,,
+BCM943142HM,[14e4:4365],b/g/n,,,1x1,75 Mbit/s,--,NO,NO,NO,NO,,,,,NO,,
+BCM943217HM2L,[14e4:4315],b/g/n,,,2x2,150 Mbit/s,--,NO,NO,NO,NO,,,,,NO,,
+BCM943227HM4L,[14e4:4358],b/g/n,,,2x2,150 Mbit/s,--,NO,NO,NO,NO,,,,,NO,,
+BCM943227HMB,[14e4:4358],b/g/n + bt,,,2x2,150 Mbit/s,--,NO,NO,NO,NO,,,,,NO,,
+BCM943228HM4L,[14e4:4359],a/b/g/n,,,2x2,150 Mbit/s,300 Mbit/s,NO,NO,NO,NO,,,,,NO,,
+BCM943228HMB,[14e4:4359],a/b/g/n + bt,,,2x2,150 Mbit/s,300 Mbit/s,NO,NO,NO,NO,,,,,NO,,
+BCM94312HMG,[14e4:4315],b/g,,,--,54 Mbit/s,--,DeviceID fix,NO,NO,NO,,,,,NO,,
+BCM943224HMS,[14e4:4353],a/b/g/n,,,2x2,150 Mbit/s,300 Mbit/s,NO,NO,10.8.5+DeviceID fix,DeviceID fix,,,,,DeviceID fix,,
+BCM943225HM,[14e4:4357],b/g/n,,,2x2,150 Mbit/s,--,NO,NO,10.8.5+DeviceID fix,DeviceID fix,,,,,DeviceID fix,,
+BCM943225HMB,[14e4:4357],b/g/n + bt,,,2x2,150 Mbit/s,--,NO,NO,10.8.5+DeviceID fix,DeviceID fix,,,,,DeviceID fix,,
+BCM94352HMB,[14e4:43b1],a/b/g/n/ac + bt,,,2x2,150 Mbit/s,867 Mbit/s,NO,NO,10.8.5+DeviceID fix,DeviceID fix,,,,,DeviceID fix,,
+BCM94360HMB,[14e4:43a0],a/b/g/n/ac+bt 4.0,,,3x3,300 Mbit/s,1300 Mbit/s,NO,NO,YES,YES,,,,,YES,,
+BCM94322HM8L,[14e4:432b],a/b/g/n,,,2x2,150 Mbit/s,300 Mbit/s,YES,YES,YES,YES,,,,,YES,,
+"Broadcom: (NGFF, M.2):",,,,,,,,,,,,,,,,,,
+BCM94352Z,[14e4:43b1],a/b/g/n/ac+bt 4.0,,,2x2,150 Mbit/s,867 Mbit/s,--,--,--,DeviceID fix,,,,,DeviceID fix,DeviceID fix,DeviceID fix
+BCM94352ZAE,[14e4:43b1],a/b/g/n/ac+bt 4.0,,,2x2,150 Mbit/s,867 Mbit/s,--,--,--,DeviceID fix,,,,,DeviceID fix,,
+BCM94350ZAE - DW1820A,[14e4:43a3],a/b/g/n/ac+bt 4.1,,[0a5c:6412] Unstable,,,,,,,YES,YES,YES,YES,YES,YES,YES,YES
+BCM943602BAED - DW1830,[14e4:43ba],a/b/g/n/ac+bt 4.1,BCM20703A1,[0a5c:8290] Unstable,3x3,150 Mbit/s,1300 Mbit/s,--,--,--,YES,YES,YES,YES,YES,YES,YES,YES
+Atheros: (full-size):,,,,,,,,,,,,,,,,,,
+AR5BXB114 (ar9390),[168c:0030],a/b/g/n,,,3x3,300 Mbit/s,450 Mbit/s,NO,NO,NO,NO,,,,,NO,,
+AR5BXB116 (ar9580),[168c:0033],a/b/g/n,,,3x3,300 Mbit/s,450 Mbit/s,NO,NO,NO,NO,,,,,NO,,
+AR5BXB63 (ar2425),[168c:001c],b/g,,,--,54 Mbit/s,--,NO,NO,NO,NO,,,,,NO,,
+AR5BXB6 (ar5424),[168c:001c],a/b/g,,,--,54 Mbit/s,54 Mbit/s,YES,NO,NO,NO,,,,,NO,,
+AR5BXB61 (ar2424),[168c:001c],b/g,,,--,54 Mbit/s,--,YES,NO,NO,NO,,,,,NO,,
+AR5BXB72 (ar5416),[168c:0024],a/b/g/n,,,2x2,150 Mbit/s,300 Mbit/s,YES,NO,NO,NO,,,,,NO,,
+AR5BXB92 (ar9280),[168c:002a],a/b/g/n,,,2x2,150 Mbit/s,300 Mbit/s,YES,YES,YES,YES,,,,,NO,,
+AR5BXB112 (ar9380),[168c:0030],a/b/g/n,,,3x3,300 Mbit/s,450 Mbit/s,NO,YES,YES,YES,,,,,NO,,
+Atheros: (half-size):,,,,,,,,,,,,,,,,,,
+AR5BHB63 (ar2425),[168c:001c],b/g,,,--,54 Mbit/s,--,NO,NO,NO,NO,,,,,NO,NO,NO
+AR5B125 (ar9485),[168c:0032],b/g/n,,,1x1,75 Mbit/s,--,NO,NO,NO,NO,,,,,NO,NO,NO
+AR5B225 (ar9485),[168c:0032],b/g/n + bt,,,1x1,75 Mbit/s,--,NO,NO,NO,NO,,,,,NO,NO,NO
+AR5B22SB (ar9463),[168c:0034],b/g/n + bt,,,2x2,150 Mbit/s,--,NO,NO,NO,NO,,,,,NO,NO,NO
+AR5B22 (ar9462),[168c:0034],a/b/g/n + bt,,,2x2,150 Mbit/s,300 Mbit/s,NO,NO,NO,NO,,,,,NO,NO,NO
+AR5BHB116 (ar9382),[168c:0030],a/b/g/n,,,2x2,150 Mbit/s,300 Mbit/s,NO,NO,NO,NO,,,,,NO,NO,NO
+AR5BHB118 (ar9392),[168c:0030],a/b/g/n,,,2x2,150 Mbit/s,300 Mbit/s,NO,NO,NO,NO,,,,,NO,NO,NO
+AR5BHB112 (ar9380),[168c:0030],a/b/g/n,,,3x3,300 Mbit/s,450 Mbit/s,NO,NO,NO,NO,,,,,NO,NO,NO
+AR5B95 (ar9285),[168c:002b],b/g/n,,,1x1,75 Mbit/s,--,NO,NO,NO,NO,,,,,NO,NO,NO
+AR5B195 (ar9285),[168c:002b],b/g/n + bt,,,1x1,75 Mbit/s,--,NO,NO,NO,NO,,,,,NO,NO,NO
+AR5B97 (ar9287),[168c:002e],b/g/n,,,2x2,150 Mbit/s,--,NO,NO,NO,NO,,,,,NO,NO,NO
+AR5B197 (ar9287),[168c:002e],b/g/n + bt,,,2x2,150 Mbit/s,--,NO,NO,NO,NO,,,,,NO,NO,NO
+AR5BHB92 (ar9280),[168c:002a],a/b/g/n,,,2x2,150 Mbit/s,300 Mbit/s,YES,YES,YES,YES,,,,,NO,NO,NO
+AR5B91 (ar9281),[168c:002a],b/g/n,,,1x2,75 Mbit/s,--,YES,YES,YES,YES,,,,,NO,NO,NO
+AR5B93 (ar9283),[168c:002a],b/g/n,,,2x2,150 Mbit/s,--,YES,YES,YES,YES,,,,,NO,NO,NO
+Qualcomm: Atheros (half-size):,,,,,,,,,,,,,,,,,,
+QCWB335 (qca9565),[168c:0036],b/g/n + bt,,,1x1,75 Mbit/s,--,NO,NO,NO,NO,,,,,NO,,
+QCWB342 (qca9862),[168c:003C],a/b/g/n/ac + bt,,,2x2,150 Mbit/s,867 Mbit/s,NO,NO,NO,NO,,,,,NO,,
+"Intel: (NGFF, M.2):",,,,,,,,,,,,,,,,,,
+AC 7260,[8086:08b1],a/b/g/n/ac+bt 4.0,,,2x2,300 Mbit/s,867 Mbit/s,NO,NO,NO,YES (itlwm.kext only),,,,,YES,YES,YES
+AC 3160,[8086:08b3],a/b/g/n/ac+bt 4.0,,,1x1,--,433 Mbit/s,NO,NO,NO,support for AirportItlwm,,,,,YES,YES,YES
+AC 7265,[8086:095a],a/b/g/n/ac+bt 4.2,,,2x2,--,867 Mbit/s,NO,NO,NO,starts from 10.13,,,,,YES,YES,YES
+AC 3165,[8086:3165],a/b/g/n/ac+bt 4.2,,,1x1,--,433 Mbit/s,NO,NO,NO,YES,,,,,YES,YES,YES
+AC 8260,[8086:24f3],a/b/g/n/ac+bt 4.2,,,2x2,--,867 Mbit/s,NO,NO,NO,YES,,,,,YES,YES,YES
+AC 4165,[8086:24f5],a/b/g/n/ac+bt 4.0,,,1x1,--,433 Mbit/s,NO,NO,NO,YES,,,,,YES,YES,YES
+AC 3168,[8086:24fb],a/b/g/n/ac+bt 4.2,,,1x1,--,433 Mbit/s,NO,NO,NO,YES,,,,,YES,YES,YES
+AC 8265,[8086:24fd],a/b/g/n/ac+bt 4.2,,,2x2,--,867 Mbit/s,NO,NO,NO,YES,,,,,YES,YES,YES
+AC 9260,[8086:2526],a/b/g/n/ac+bt 5.1,,,2x2,--,1730 Mbit/s,NO,NO,NO,YES,,,,,YES,YES,YES
+AC 9560,[8086:a370],a/b/g/n/ac+bt 5.1,,,2x2,--,1730 Mbit/s,NO,NO,NO,YES,,,,,YES,YES,YES
+AC 9462,[8086:42a4],a/b/g/n/ac+bt 5.1,,,1x1,--,433 Mbit/s,NO,NO,NO,YES,,,,,YES,YES,YES
+AC 9461,[8086:0060],a/b/g/n/ac+bt 5.1,,,1x1,--,433 Mbit/s,NO,NO,NO,YES,,,,,YES,YES,YES
+AX200,[8086:2723],a/b/g/n/ac+bt 5.1,,,2x2,--,2400 Mbit/s,NO,NO,NO,YES,,,,,YES,YES,YES
+AX201,[8086:43f0],a/b/g/n/ac+bt 5.1,,,2x2,--,2400 Mbit/s,NO,NO,NO,YES,,,,,YES,YES,YES
+Other cards: ,,,,,,,,,,,,,,,,,,
+Ralink any model,[148F:xxxx],--,,,--,--,--,NO,NO,NO,NO,,,,,NO,,
+Realtek any model,[10EC:xxxx],--,,,--,--,--,NO,NO,NO,NO,,,,,NO,,
