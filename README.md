@@ -1,9 +1,12 @@
 # Wireless Compatibilty Chart for macOS
 This repository is an initial draft for an extensive collection of wireless devices compatible with macOS
 
-For usability, you can check this document for the latest support info first, open an issue or a PR editing [this file](https://github.com/1alessandro1/Wireless-Compatibilty-Chart-for-macOS/blob/main/Wi-Fi%20Compatibility%20Table%20-%20Pci-Express%2C%20Mini%20Pci-Express%20and%20M.2%20(NGFF)%20for%20macOS.csv) with your favorite editor and export that again in csv for the PR.
+## How to contribute
 
-https://docs.google.com/spreadsheets/d/1Rc66yvbW2-llykxt5AL03HSHZ9PDa4SQqJrglJ1bMKE/edit#gid=0
+Well, there are two options:
+
+- Open an issue and fill the template, check the [doc](https://docs.google.com/spreadsheets/d/1Rc66yvbW2-llykxt5AL03HSHZ9PDa4SQqJrglJ1bMKE/edit#gid=0) or the [csv](https://github.com/1alessandro1/Wireless-Compatibilty-Chart-for-macOS/blob/main/Wi-Fi%20Compatibility%20Table%20-%20Pci-Express%2C%20Mini%20Pci-Express%20and%20M.2%20(NGFF)%20for%20macOS.csv) first
+- Check [the google docs document](https://docs.google.com/spreadsheets/d/1Rc66yvbW2-llykxt5AL03HSHZ9PDa4SQqJrglJ1bMKE/edit#gid=0) for the latest support info first, download the `.csv` with your favourite editor, open an issue or a PR editing the [csv](https://github.com/1alessandro1/Wireless-Compatibilty-Chart-for-macOS/blob/main/Wi-Fi%20Compatibility%20Table%20-%20Pci-Express%2C%20Mini%20Pci-Express%20and%20M.2%20(NGFF)%20for%20macOS.csv) apply the changes and export that again in csv for the PR. Stick to the issue template for the necessary data, or fill all the necessary fields from the spreadsheet.
 
 since from that I will convert the data to markdown format (so that it can be copied inside guides or wikis which are currently using `.md` format)
 
