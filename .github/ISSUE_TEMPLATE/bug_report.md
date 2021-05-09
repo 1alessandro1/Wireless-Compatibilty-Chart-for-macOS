@@ -28,6 +28,7 @@ Please fill the following table to add the correct information on your card.
 
 
 | Data Type  | Value  |
+|:----------------|:----------:|
 | **Bluetooth model**| `BRCM20702` |
 | **Bluetooth device-id**    | `05ac:828d` |
 
