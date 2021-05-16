@@ -7,7 +7,7 @@ BCM94331CSAX,[14e4:4331],a/b/g/n+ bt 4.0,,,3x3,150 Mbit/s,450 Mbit/s,--,--,10.8.
 BCM94331CD,[14e4:4331],a/b/g/n+ bt 4.0,,,3x3,150 Mbit/s,450 Mbit/s,--,--,10.8.5+YES,YES,YES,YES,YES,YES,YES,Force  IO80211Family,DeviceID spoof to BCM94360
 BCM94360CS2,[14e4:43a0],a/g/n/ac+ bt 4.0,,,2x2,300 Mbit/s,867 Mbit/s,--,--,--,YES,YES,YES,YES,YES,YES,YES,YES
 BCM94360CS,[14e4:43a0],a/g/n/ac+ bt 4.0,BRCM20702,,3x3,300 Mbit/s,1300 Mbit/s,--,--,--,YES,YES,YES,YES,YES,YES,YES,YES
-BCM94360CD - Fenvi T919,[14e4:43a0],a/g/n/ac+ bt 4.0,BRCM20702,"[05ac:828d] Tested, stable",3x3,450 Mbit/s,1300 Mbit/s,--,--,--,YES,YES,YES,YES,YES,YES,YES,YES
+BCM94360CD - Fenvi T919,[14e4:43a0],a/g/n/ac+ bt 4.0,BRCM20702,"[05ac:828d] Tested, stable",3x3,300 Mbit/s,1300 Mbit/s,--,--,--,YES,YES,YES,YES,YES,YES,YES,YES
 BCM943602CDP,[14e4:43ba],a/g/n/ac+ bt 4.1,BRCM20703,[05ac:8290],3x3,300 Mbit/s,1300 Mbit/s,--,--,--,YES,YES,YES,YES,YES,YES,YES,YES
 BCM943602CS,[14e4:43ba],a/g/n/ac+ bt 4.1,BRCM2045A0,[0a5c:f007] Unsupported,3x3,300 Mbit/s,1300 Mbit/s,--,--,--,YES,YES,YES,YES,YES,YES,YES,YES
 Broadcom: (full-size):,,,,,,,,,,,,,,,,,,
@@ -16,7 +16,7 @@ BCM94311MCG,[14e4:4311],b/g,,,--,54 Mbit/s,--,YES,NO,NO,NO,,,,,NO,,
 BCM94312MCAG,[14e4:4312],a/b/g,,,--,54 Mbit/s,--,YES,NO,NO,NO,,,,,NO,,
 BCM94321MC,[14e4:4328],a/b/g/n,,,2x2,150 Mbit/s,300 Mbit/s,YES,NO,NO,NO,,,,,NO,,
 BCM94322MC,[14e4:432b],a/b/g/n,,,2x2,150 Mbit/s,300 Mbit/s,YES,YES,YES,YES,,,,,YES,,
-BCM94360NG,[14e4:43a0],a/b/g/n/ac,BRCM20702,"[05ac:828d] Tested, stable",2x2,150 Mbit/s,300 Mbit/s,YES,YES,YES,YES,,,,,YES,,
+BCM94360NG,[14e4:43a0],a/b/g/n/ac + bt 4.0,BRCM20702,"[05ac:828d] Tested, stable",2x2,300 Mbit/s,867 Mbit/s,YES,YES,YES,YES,,,,,YES,,
 Broadcom: (half-size):,,,,,,,,,,,,,,,,,,
 BCM94312HMGB,[14e4:4315],b/g + bt,,,--,54 Mbit/s,--,NO,NO,NO,NO,,,,,NO,,
 BCM94313HMG2L,[14e4:4727],b/g/n,,,1x1,75 Mbit/s,--,NO,NO,NO,NO,,,,,NO,,
@@ -68,20 +68,20 @@ Qualcomm: Atheros (half-size):,,,,,,,,,,,,,,,,,,
 QCWB335 (qca9565),[168c:0036],b/g/n + bt,,,1x1,75 Mbit/s,--,NO,NO,NO,NO,,,,,NO,,
 QCWB342 (qca9862),[168c:003C],a/b/g/n/ac + bt,,,2x2,150 Mbit/s,867 Mbit/s,NO,NO,NO,NO,,,,,NO,,
 "Intel: (NGFF, M.2):",,,,,,,,,,,,,,,,,,
-AC 7260,[8086:08b1],a/b/g/n/ac+bt 4.0,,,2x2,300 Mbit/s,867 Mbit/s,NO,NO,NO,YES (itlwm.kext only),,,,,YES,YES,YES
-AC 3160,[8086:08b3],a/b/g/n/ac+bt 4.0,,,1x1,--,433 Mbit/s,NO,NO,NO,support for AirportItlwm,,,,,YES,YES,YES
-AC 7265,[8086:095a],a/b/g/n/ac+bt 4.2,,,2x2,--,867 Mbit/s,NO,NO,NO,starts from 10.13,,,,,YES,YES,YES
-AC 3165,[8086:3165],a/b/g/n/ac+bt 4.2,,,1x1,--,433 Mbit/s,NO,NO,NO,YES,,,,,YES,YES,YES
-AC 8260,[8086:24f3],a/b/g/n/ac+bt 4.2,,,2x2,--,867 Mbit/s,NO,NO,NO,YES,,,,,YES,YES,YES
-AC 4165,[8086:24f5],a/b/g/n/ac+bt 4.0,,,1x1,--,433 Mbit/s,NO,NO,NO,YES,,,,,YES,YES,YES
-AC 3168,[8086:24fb],a/b/g/n/ac+bt 4.2,,,1x1,--,433 Mbit/s,NO,NO,NO,YES,,,,,YES,YES,YES
-AC 8265,[8086:24fd],a/b/g/n/ac+bt 4.2,,,2x2,--,867 Mbit/s,NO,NO,NO,YES,,,,,YES,YES,YES
-AC 9260,[8086:2526],a/b/g/n/ac+bt 5.1,,,2x2,--,1730 Mbit/s,NO,NO,NO,YES,,,,,YES,YES,YES
-AC 9560,[8086:a370],a/b/g/n/ac+bt 5.1,,,2x2,--,1730 Mbit/s,NO,NO,NO,YES,,,,,YES,YES,YES
-AC 9462,[8086:42a4],a/b/g/n/ac+bt 5.1,,,1x1,--,433 Mbit/s,NO,NO,NO,YES,,,,,YES,YES,YES
-AC 9461,[8086:0060],a/b/g/n/ac+bt 5.1,,,1x1,--,433 Mbit/s,NO,NO,NO,YES,,,,,YES,YES,YES
-AX200,[8086:2723],a/b/g/n/ac+bt 5.1,,,2x2,--,2400 Mbit/s,NO,NO,NO,YES,,,,,YES,YES,YES
-AX201,[8086:43f0],a/b/g/n/ac+bt 5.1,,,2x2,--,2400 Mbit/s,NO,NO,NO,YES,,,,,YES,YES,YES
+AC 7260,[8086:08b1],a/b/g/n/ac+bt 4.0,,,2x2,300 Mbit/s,867 Mbit/s,NO,NO,NO,itlwm,itlwm,itlwm,itlwm,AirportItlwm,AirportItlwm,AirportItlwm,AirportItlwm
+AC 3160,[8086:08b3],a/b/g/n/ac+bt 4.0,,,1x1,--,433 Mbit/s,NO,NO,NO,itlwm,itlwm,itlwm,itlwm,AirportItlwm,AirportItlwm,AirportItlwm,AirportItlwm
+AC 7265,[8086:095a],a/b/g/n/ac+bt 4.2,,,2x2,--,867 Mbit/s,NO,NO,NO,itlwm,itlwm,itlwm,itlwm,AirportItlwm,AirportItlwm,AirportItlwm,AirportItlwm
+AC 3165,[8086:3165],a/b/g/n/ac+bt 4.2,,,1x1,--,433 Mbit/s,NO,NO,NO,itlwm,itlwm,itlwm,itlwm,AirportItlwm,AirportItlwm,AirportItlwm,AirportItlwm
+AC 8260,[8086:24f3],a/b/g/n/ac+bt 4.2,,,2x2,--,867 Mbit/s,NO,NO,NO,itlwm,itlwm,itlwm,itlwm,AirportItlwm,AirportItlwm,AirportItlwm,AirportItlwm
+AC 4165,[8086:24f5],a/b/g/n/ac+bt 4.0,,,1x1,--,433 Mbit/s,NO,NO,NO,itlwm,itlwm,itlwm,itlwm,AirportItlwm,AirportItlwm,AirportItlwm,AirportItlwm
+AC 3168,[8086:24fb],a/b/g/n/ac+bt 4.2,,,1x1,--,433 Mbit/s,NO,NO,NO,itlwm,itlwm,itlwm,itlwm,AirportItlwm,AirportItlwm,AirportItlwm,AirportItlwm
+AC 8265,[8086:24fd],a/b/g/n/ac+bt 4.2,,,2x2,--,867 Mbit/s,NO,NO,NO,itlwm,itlwm,itlwm,itlwm,AirportItlwm,AirportItlwm,AirportItlwm,AirportItlwm
+AC 9260,[8086:2526],a/b/g/n/ac+bt 5.1,,,2x2,--,1730 Mbit/s,NO,NO,NO,itlwm,itlwm,itlwm,itlwm,AirportItlwm,AirportItlwm,AirportItlwm,AirportItlwm
+AC 9560,[8086:a370],a/b/g/n/ac+bt 5.1,,,2x2,--,1730 Mbit/s,NO,NO,NO,itlwm,itlwm,itlwm,itlwm,AirportItlwm,AirportItlwm,AirportItlwm,AirportItlwm
+AC 9462,[8086:42a4],a/b/g/n/ac+bt 5.1,,,1x1,--,433 Mbit/s,NO,NO,NO,itlwm,itlwm,itlwm,itlwm,AirportItlwm,AirportItlwm,AirportItlwm,AirportItlwm
+AC 9461,[8086:0060],a/b/g/n/ac+bt 5.1,,,1x1,--,433 Mbit/s,NO,NO,NO,itlwm,itlwm,itlwm,itlwm,AirportItlwm,AirportItlwm,AirportItlwm,AirportItlwm
+AX200,[8086:2723],a/b/g/n/ac+bt 5.1,,,2x2,--,2400 Mbit/s,NO,NO,NO,itlwm,itlwm,itlwm,itlwm,AirportItlwm,AirportItlwm,AirportItlwm,AirportItlwm
+AX201,[8086:43f0],a/b/g/n/ac+bt 5.1,,,2x2,--,2400 Mbit/s,NO,NO,NO,itlwm,itlwm,itlwm,itlwm,AirportItlwm,AirportItlwm,AirportItlwm,AirportItlwm
 Other cards: ,,,,,,,,,,,,,,,,,,
 Ralink any model,[148F:xxxx],--,,,--,--,--,NO,NO,NO,NO,,,,,NO,,
 Realtek any model,[10EC:xxxx],--,,,--,--,--,NO,NO,NO,NO,,,,,NO,,
